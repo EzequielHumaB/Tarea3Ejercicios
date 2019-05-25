@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\EnumeraciontipodeNeumaticos.cs" />
     <Compile Include="BLL\MascotayAmo.cs" />
     <Compile Include="BLL\TiendaClase.cs" />
     <Compile Include="Form1.cs">

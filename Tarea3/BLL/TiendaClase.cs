@@ -21,11 +21,22 @@ namespace Tarea3.BLL
                 articulo = sarticulo;
                 cantidadArticulo = scantidadArticulo;
             }
-
-            public static string devolverArticulo(string articulo, int cantArticulo)
+            public override string ToString()
             {
-                return articulo + " " + cantArticulo;
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.AppendFormat("Articulo: {0}, Cantidad: {1}",
+                    articulo,cantidadArticulo);
+                return stringBuilder.ToString();
             }
+
         }
+        public static string devolverArticulo(string articulo, int cantArticulo)
+        {
+            return articulo + " " + cantArticulo.ToString();
+        }
+
+       
+
+
     }
 }

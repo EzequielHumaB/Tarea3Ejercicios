@@ -23,7 +23,32 @@ namespace Tarea3.UI.Registros
             string articuloingresado = textBoxArticuloIngresado.Text;
             int cantArticuloingresado = Convert.ToInt32(Math.Round(numericUpDownCantidadArticulo.Value, 0));
             TiendaClase.Articulos articulos = new TiendaClase.Articulos(articuloingresado,cantArticuloingresado);
-            labelMostrarArticulo.Text = "Articulo ingresado y su cantidad" + articulos.devolverArticulo(articuloingresado, cantArticuloingresado);
+            TiendaClase tiendaClase = new TiendaClase();
+            labelMostrarArticulo.Text = articulos.ToString();
+        }
+
+        private void TextBoxEspecieMascota_TextChanged(object sender, EventArgs e)
+        {
+            string nombreAmo = textBoxNombre.Text;
+            int EdadAmo = Convert.ToInt32(Math.Round(numericUpDownEdad.Value, 0));
+            string especie = textBoxEspecieMascota.Text;
+            string nombreMascota = textBoxNombreMascota.Text;
+            int edadMascota = Convert.ToInt32(Math.Round(numericUpDownEdadMascota.Value,0));
+            string domicilio = textBoxDomicilio.Text;
+            MascotayAmo.Amo amo = new MascotayAmo.Amo(nombreAmo,EdadAmo,domicilio);
+            MascotayAmo.Amo.Mascota mascota = new MascotayAmo.Amo.Mascota(nombreMascota,especie,edadMascota);
+
+
+            labelMostrarAmoyMascota.Text = amo.ToString() + " " + mascota.ToString();
+
+
+        }
+
+      
+
+        private void Capitulo9_Load(object sender, EventArgs e)
+        {
+            labelNeumaticos.Text = EnumeraciontipodeNeumaticos.imprimir();
         }
     }
 }
