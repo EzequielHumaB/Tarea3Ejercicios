@@ -26,5 +26,26 @@ namespace Tarea3
             capitulo9.StartPosition = FormStartPosition.CenterScreen;
             capitulo9.Show();
         }
+
+        private void InventarioTiendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InventarioTienda inventario = new InventarioTienda();
+            inventario.StartPosition = FormStartPosition.CenterScreen;
+            inventario.Show();
+        }
+
+        private void EstudianteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EstudianteForm estudiante = new EstudianteForm();
+            estudiante.StartPosition = FormStartPosition.CenterScreen;
+            estudiante.Show();
+        }
+
+        private void PoligonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PoligonoForm poligono = new PoligonoForm();
+            poligono.StartPosition = FormStartPosition.CenterScreen;
+            poligono.Show();
+        }
     }
 }

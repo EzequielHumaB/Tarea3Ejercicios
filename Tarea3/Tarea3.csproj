@@ -46,7 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\ClasePoligono.cs" />
     <Compile Include="BLL\EnumeraciontipodeNeumaticos.cs" />
+    <Compile Include="BLL\Estudiante.cs" />
+    <Compile Include="BLL\InventarioTiendaCapitulo10.cs" />
     <Compile Include="BLL\MascotayAmo.cs" />
     <Compile Include="BLL\TiendaClase.cs" />
     <Compile Include="Form1.cs">
@@ -63,6 +66,24 @@
     <Compile Include="UI\Registros\Capitulo9.Designer.cs">
       <DependentUpon>Capitulo9.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Registros\EstudianteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Registros\EstudianteForm.Designer.cs">
+      <DependentUpon>EstudianteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Registros\InventarioTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Registros\InventarioTienda.Designer.cs">
+      <DependentUpon>InventarioTienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Registros\PoligonoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Registros\PoligonoForm.Designer.cs">
+      <DependentUpon>PoligonoForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -77,6 +98,15 @@
     </Compile>
     <EmbeddedResource Include="UI\Registros\Capitulo9.resx">
       <DependentUpon>Capitulo9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Registros\EstudianteForm.resx">
+      <DependentUpon>EstudianteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Registros\InventarioTienda.resx">
+      <DependentUpon>InventarioTienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Registros\PoligonoForm.resx">
+      <DependentUpon>PoligonoForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

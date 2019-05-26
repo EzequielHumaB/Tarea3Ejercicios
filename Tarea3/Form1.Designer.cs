@@ -31,6 +31,10 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.capitulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capitulo9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.capitulo10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inventarioTiendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.estudianteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.poligonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +51,8 @@
             // capitulosToolStripMenuItem
             // 
             this.capitulosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.capitulo9ToolStripMenuItem});
+            this.capitulo9ToolStripMenuItem,
+            this.capitulo10ToolStripMenuItem});
             this.capitulosToolStripMenuItem.Name = "capitulosToolStripMenuItem";
             this.capitulosToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.capitulosToolStripMenuItem.Text = "Capitulos ";
@@ -58,6 +63,37 @@
             this.capitulo9ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.capitulo9ToolStripMenuItem.Text = "Capitulo 9";
             this.capitulo9ToolStripMenuItem.Click += new System.EventHandler(this.Capitulo9ToolStripMenuItem_Click_1);
+            // 
+            // capitulo10ToolStripMenuItem
+            // 
+            this.capitulo10ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inventarioTiendaToolStripMenuItem,
+            this.estudianteToolStripMenuItem,
+            this.poligonoToolStripMenuItem});
+            this.capitulo10ToolStripMenuItem.Name = "capitulo10ToolStripMenuItem";
+            this.capitulo10ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.capitulo10ToolStripMenuItem.Text = "Capitulo 10";
+            // 
+            // inventarioTiendaToolStripMenuItem
+            // 
+            this.inventarioTiendaToolStripMenuItem.Name = "inventarioTiendaToolStripMenuItem";
+            this.inventarioTiendaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.inventarioTiendaToolStripMenuItem.Text = "Inventario Tienda";
+            this.inventarioTiendaToolStripMenuItem.Click += new System.EventHandler(this.InventarioTiendaToolStripMenuItem_Click);
+            // 
+            // estudianteToolStripMenuItem
+            // 
+            this.estudianteToolStripMenuItem.Name = "estudianteToolStripMenuItem";
+            this.estudianteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.estudianteToolStripMenuItem.Text = "Estudiante";
+            this.estudianteToolStripMenuItem.Click += new System.EventHandler(this.EstudianteToolStripMenuItem_Click);
+            // 
+            // poligonoToolStripMenuItem
+            // 
+            this.poligonoToolStripMenuItem.Name = "poligonoToolStripMenuItem";
+            this.poligonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.poligonoToolStripMenuItem.Text = "Poligono";
+            this.poligonoToolStripMenuItem.Click += new System.EventHandler(this.PoligonoToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -80,6 +116,10 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem capitulosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem capitulo9ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem capitulo10ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inventarioTiendaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem estudianteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem poligonoToolStripMenuItem;
     }
 }
 
